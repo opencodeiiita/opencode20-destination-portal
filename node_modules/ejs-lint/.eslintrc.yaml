@@ -1,0 +1,3 @@
+extends: problems
+env:
+  node: true

@@ -1,0 +1,78 @@
+<%- include("partials/header.ejs") %>
+
+<!-- my Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!-- my jumbotron -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Dream Destinations</h1>
+    <p class="lead">cherish the destination you want to vist and add to your dream list</p>
+  </div>
+</div>
+
+<div class="d-flex justify-content-center pb-4">
+	<form action="/index/new" method="GET">
+	<button type="submit" class="btn btn-lg btn-primary" >
+		ADD NEW DESTINATION
+	</button>
+	</form>
+</div>
+
+<!-- Heading -->	
+	 <div class="container-fluid">
+		 <div class="row" style="display:flex;flex-wrap:wrap;">
+			   <% for(var i=0;i<itemlist.length;i++){ %>
+			<div class="col col-lg-4"> 
+			  <div class="card mx-2 my-1" style="width:400px">
+                  <img class="card-img-top" src="<%=itemlist[i].url%>" alt="Card image">
+                  <div class="card-body">
+					  <% var x= itemlist[i].name;
+				          x=x.toUpperCase() %>
+                    <h4 class="card-title"> <%=x%></h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="/index/<%=itemlist[i]._id %>" class="btn btn-primary">INFO</a>
+                  </div>
+              </div>
+			 </div>
+				<%}%>
+		 </div>
+		 
+     </div>
+
+
+<%- include("partials/footer.ejs") %>
