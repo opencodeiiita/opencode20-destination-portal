@@ -1,4 +1,3 @@
-
 # CONTRIBUTORS LIST
 
 NAME 
@@ -7,4 +6,5 @@ NAME
 3. Aadharsh Roshan(smcri)
 4. Tejas Agrawal(cyber-venom003)
 5. Avneesh Kumar(Cybertron-Avneesh)
+6. Vishwas Singh(infern018)
 
