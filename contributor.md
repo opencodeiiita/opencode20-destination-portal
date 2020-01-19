@@ -1,8 +1,7 @@
 # CONTRIBUTORS LIST
 
-NAME |Harshit Sinha(harsh-797)
-------
-NAME |Aadharsh Roshan(smcri)
-------
-NAME |Tejas Agrawal(cyber-venom003)
-------
+NAME 
+1. Harshit Sinha(harsh-797)
+2. Aman Singh(prince-7)
+3. Aadharsh Roshan(smcri)
+4. Tejas Agrawal(cyber-venom003)
