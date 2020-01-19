@@ -1,4 +1,7 @@
 # CONTRIBUTORS LIST
 
-NAME |Harshit Sinha(harsh-797)
+NAME |
+1)Harshit Sinha(harsh-797)
+2)Aman Singh(prince-7)
+
 ------
