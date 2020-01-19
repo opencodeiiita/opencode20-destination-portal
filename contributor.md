@@ -1,4 +1,4 @@
 # CONTRIBUTORS LIST
 
-NAME |
+NAME |P. Aditya Kumar (padityak79)
 ------
