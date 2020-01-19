@@ -1,4 +1,4 @@
 # CONTRIBUTORS LIST
 
-NAME |
+NAME |Harshit Sinha(harsh-797)
 ------
