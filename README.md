@@ -15,6 +15,6 @@
 5. deploying steps:
    * write  node app.js (this will start node server and host webpage locally ie localhost)
    * to view the webpage on browser:
-      *go to mozilla and type URL http://localhost:1112
+   * go to mozilla and type URL http://localhost:1112
 6. Now you are ready to go to start contributing in the project
 7. **NOTE**  css/ejs/js files are in views directory
