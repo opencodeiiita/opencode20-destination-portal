@@ -17,7 +17,9 @@
    * to view the webpage on browser:
    * go to mozilla and type URL http://localhost:1112
 6. Now you are ready to go to start contributing in the project
-7. **NOTE**  css/ejs/js files are in views directory
+7. **NOTE**  
+ * css/ejs/js files are in views directory
+ * Always sync your fork before working on a new     issue
 
 # Guidelines
 Please help us follow the best practice to make it easy for the reviewer as well
