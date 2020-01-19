@@ -1,6 +1,6 @@
 # CONTRIBUTORS LIST
 
-NAME 
+NAME
 
 * Harshit Sinha(harsh-797)
 * Aman Singh(prince-7)
@@ -13,3 +13,4 @@ NAME
 * Shubhang Singh(shuba400)
 * Ananya Mohanty (ananya-mohanty)
 * Sandeep kumar (sandy9808)
+* Prasanth Kota (Evadore)
