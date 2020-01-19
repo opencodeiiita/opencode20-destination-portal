@@ -1,6 +1,7 @@
 # CONTRIBUTORS LIST
 
-NAME |Harshit Sinha(harsh-797)
-NAME |Avneesh Kumar(Cybertron-Avneesh)
-NAME |Aman Singh(prince-7)
-NAME |Aadharsh Roshan(smcri)
+NAME
+1. Harshit Sinha(harsh-797)
+2. Aman Singh(prince-7)
+3. Aadharsh Roshan(smcri)
+4. Avneesh Kumar(Cybertron-Avneesh)
