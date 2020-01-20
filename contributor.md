@@ -11,6 +11,7 @@ NAME
 * P. Aditya Kumar (padityak79)
 * Rohini Mishra(rohini13)
 * Shubhang Singh(shuba400)
-* Sandeep kumar (sandy9808)
 * Ananya Mohanty (ananya-mohanty)
 * Sarthak Maheshwari(sarthakm21)
+* Sandeep kumar (sandy9808)
+
