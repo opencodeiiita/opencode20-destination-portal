@@ -19,4 +19,3 @@ NAME
 * Mridul Mittal (Mridul20)
 * Ananya Agarwal (aawizard)
 * Pradhuman Singh Baid(pradhuman1) 
-* Piyush Gurjar(Piyush4064)
