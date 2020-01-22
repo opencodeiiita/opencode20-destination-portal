@@ -1,6 +1,6 @@
 # CONTRIBUTORS LIST
 
-NAME 
+NAME
 
 * Harshit Sinha(harsh-797)
 * Aman Singh(prince-7)
@@ -14,6 +14,14 @@ NAME
 * Ananya Mohanty (ananya-mohanty)
 * Sarthak Maheshwari(sarthakm21)
 * Sandeep kumar (sandy9808)
+* Varun Tiwari (VarunT11)
+* Prasanth Kota (Evadore)
 * Shreyas Gupta (sggts04)
+* Garvit Chittora(garvitchittora)
 * Sneha Gupta(Sneha1010)
 * Mridul Mittal (Mridul20)
+* Ananya Agarwal (aawizard)
+* Pradhuman Singh Baid(pradhuman1) 
+* Muskan Deep Kaur (mendelevium28)
+* Vidur Kataria (kavi-12)
+* Vishal Burman(black-cat01)

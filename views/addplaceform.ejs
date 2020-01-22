@@ -3,26 +3,50 @@
 
 
 <!-- create a sample form group -->
+  
+<style>
+  .border {
+    display: inline-block;
+	border: 2px black;
+	outline-style: double;
+    outline-color: blue;
+    width: 600px;
+    height: 300px;
+    margin: 150px;
+  }
+  .form-textbox {
+	height: 35px;
+	width: 500px;
+	font-size: 14px;
+}
+</style>
+
+<center>
 <div class="container">
-  <form action="/index/new" method="POST">
+<span class="border border-primary ">
+<p class="text-center">
+  <form action="/index/new" method="POST" class="was-validated">
 	<div class="form-group">
-	  <label>Destination Name</label>
-	  <input class="form-control" type="text" placeholder="Name of Place" name="dstname">
-	  <small class="form-text text-muted">enter city/place/country you want to visit</small>
+	  <p class="font-weight-bold">Destination Name</p>
+	  <input class="form-control form-textbox" type="text" placeholder="Name of Place" name="dstname" required>
+	  <div class="invalid-feedback">Enter city/place/country you want to visit.</div>
 	</div>
 	  
 	<div class="form-group">
-	  <label>Image URL</label>
-	  <input class="form-control" type="text" placeholder="Enter Image URL" name="imgurl">
-	  <small class="form-text text-muted">enter the URL of image</small>
+	  <p class="font-weight-bold">Image URL</p>
+	  <input class="form-control form-textbox" type="text" placeholder="Enter Image URL" name="imgurl" required>
+	  <div class="invalid-feedback">Enter the URL of image.</div>
 	</div>
 	  
 	<button type="submit" class="btn btn-primary">
 		Add 
 	</button>
 		
-</form>	
+</form>
+</p>
+</span>
 </div>
+</center>
 
 
 <%- include("partials/footer.ejs")%>

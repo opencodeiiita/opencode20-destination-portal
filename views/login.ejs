@@ -10,7 +10,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/">Home</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -32,42 +32,30 @@
   </div>
 </nav>
 
-<!-- my jumbotron -->
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4"><i class="fa fa-globe" aria-hidden="true"></i> Dream Destinations</h1>
-    <p class="lead">cherish the destination you want to vist and add to your dream list</p>
-  </div>
-</div>
-
-<div class="d-flex justify-content-center pb-4">
-	<form action="/index/new" method="GET">
-	<button type="submit" class="btn btn-lg btn-primary" >
-		ADD NEW DESTINATION
-	</button>
-	</form>
-</div>
-
-<!-- Heading -->	
-	 <div class="container-fluid">
-		 <div class="row" style="display:flex;flex-wrap:wrap;">
-			   <% for(var i=0;i<itemlist.length;i++){ %>
-			<div class="col col-lg-4"> 
-			  <div class="card mx-2 my-1" style="width:400px">
-                  <img class="card-img-top" src="<%=itemlist[i].url%>" alt="Card image">
-                  <div class="card-body">
-					  <% var x= itemlist[i].name;
-				          x=x.toUpperCase() %>
-                    <h4 class="card-title"> <%=x%></h4>
-                    <p class="card-text">Some example text.</p>
-                    <a href="/index/<%=itemlist[i]._id %>" class="btn btn-primary">INFO</a>
-                  </div>
+<div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body" style="padding: 40px!important;">
+            <h5 class="card-title text-center display-4">Login</h5>
+            <form class="form-signin">
+              <div class="form-label-group">
+                <label for="inputEmail" style="margin-top: 10px;">Email Address</label>
+                <input type="email" style="margin: 0 0 10px 0;" id="inputEmail" class="form-control" placeholder="Email Address" required autofocus>
               </div>
-			 </div>
-				<%}%>
-		 </div>
-		 
-     </div>
+
+              <div class="form-label-group">
+                <label for="inputPassword">Password</label>
+                <input type="password" style="margin: 0 0 10px 0;" id="inputPassword" class="form-control" placeholder="Password" required>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" style="margin: 20px 0 10px 0;">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
 <%- include("partials/footer.ejs") %>
