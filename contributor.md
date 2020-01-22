@@ -17,6 +17,7 @@ NAME
 * Varun Tiwari (VarunT11)
 * Prasanth Kota (Evadore)
 * Shreyas Gupta (sggts04)
+* Garvit Chittora(garvitchittora)
 * Sneha Gupta(Sneha1010)
 * Mridul Mittal (Mridul20)
 * Ananya Agarwal (aawizard)
