@@ -20,6 +20,7 @@ NAME
 * Garvit Chittora(garvitchittora)
 * Sneha Gupta(Sneha1010)
 * Mridul Mittal (Mridul20)
+* Prathamesh Kakde (Lulz5ec)
 * Ananya Agarwal (aawizard)
 * Pradhuman Singh Baid(pradhuman1) 
 * Muskan Deep Kaur (mendelevium28)
