@@ -26,10 +26,12 @@ NAME
 * Muskan Deep Kaur (mendelevium28)
 * Vidur Kataria (kavi-12)
 * Vishal Burman(black-cat01)
+* Karan Kunwar(southpole01)
 * Arpit Agarwal (aarpit1010)
 * Amit jain(amit2223)
 * Sanskar Patro(sanskar-p)
 * Ayush Tiwari(blaze-assault)
 * Snehalreet Kaur(snehal199)
 * Jyotika Bhatti(Jyotika999)
+
 
