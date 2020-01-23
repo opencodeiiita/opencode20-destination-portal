@@ -30,5 +30,6 @@ NAME
 * Amit jain(amit2223)
 * Sanskar Patro(sanskar-p)
 * Ayush Tiwari(blaze-assault)
+* Snehalreet Kaur(snehal199)
 * Jyotika Bhatti(Jyotika999)
 
