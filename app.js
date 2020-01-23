@@ -49,6 +49,11 @@ app.get("/index/:id",(req, res)=>{
 	});
 });
 	
+//5th route ->
+app.get("/login",(req,res)=>{
+	res.render("login.ejs");
+});
+
 //writing server listen route
 app.listen(1112,()=> {
 	console.log("server started");
