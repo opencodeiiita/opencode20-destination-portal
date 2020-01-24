@@ -23,6 +23,7 @@ NAME
 * Mridul Mittal (Mridul20)
 * Prathamesh Kakde (Lulz5ec)
 * Ananya Agarwal (aawizard)
+* Ranveer Singh (Ranveer251)
 * Pradhuman Singh Baid(pradhuman1) 
 * Muskan Deep Kaur (mendelevium28)
 * Vidur Kataria (kavi-12)
