@@ -28,6 +28,7 @@ NAME
 * Muskan Deep Kaur (mendelevium28)
 * Vidur Kataria (kavi-12)
 * Vishal Burman(black-cat01)
+* Varun Bhardwaj(starboi02)
 * Manish Kumar(manish-kumar-2000)
 * Karan Kunwar(southpole01)
 * Arpit Agarwal (aarpit1010)
