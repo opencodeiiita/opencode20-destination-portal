@@ -28,6 +28,7 @@ NAME
 * Muskan Deep Kaur (mendelevium28)
 * Vidur Kataria (kavi-12)
 * Vishal Burman(black-cat01)
+* Manish Kumar(manish-kumar-2000)
 * Karan Kunwar(southpole01)
 * Arpit Agarwal (aarpit1010)
 * Amit jain(amit2223)
@@ -35,6 +36,5 @@ NAME
 * Ayush Tiwari(blaze-assault)
 * Snehalreet Kaur(snehal199)
 * Jyotika Bhatti(Jyotika999)
-*Mehul Garg(Mehul-12)
-
+* Mehul Garg(Mehul-12)
 
