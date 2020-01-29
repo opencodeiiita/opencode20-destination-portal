@@ -4,6 +4,7 @@ var Express=    require('express'),
 
 var app=Express();
 ejsLint("index.ejs","-d");
+app.use('/decfiles',Express.static('decfiles'));
 //this body-parser is included when POST request is used
 app.use(bodyparser.urlencoded({extended:true}));
 
