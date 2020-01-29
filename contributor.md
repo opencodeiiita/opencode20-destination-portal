@@ -38,6 +38,8 @@ NAME
 * Snehalreet Kaur(snehal199)
 * Jyotika Bhatti(Jyotika999)
 * Mehul Garg(Mehul-12)
+* Chetan Garg(untrulynoxiusmj)
+* Ankit Gupta(ankit4284)
 * Vaibhav Verma (aquris)
 * Ekansh Nishad(EkanshNishad)
 * Ankit Gupta(ankit4284)
