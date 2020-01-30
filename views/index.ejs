@@ -12,9 +12,6 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
@@ -30,11 +27,13 @@
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
       </li>
     </ul>
+    <a href="/login"><i class="fas fa-sign-in-alt"style="margin:auto;width:20px;size:5x;"></i><button class="btn btn-outline-success my-2 my-sm-0 mr-2" type="submit">Login</button></a>
+    <a href="#"><i class="fas fa-user-plus" style="margin:auto;width:20px;size:5x;"></i><button class="btn btn-outline-info my-2 my-sm-0" type="submit">Sign Up</button></a>
   </div>
 </nav>
 
 <!-- my jumbotron -->
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron">
   <div class="container">
     <h1 class="display-4"><i class="fa fa-globe" aria-hidden="true"></i> Dream Destinations</h1>
     <p class="lead">cherish the destination you want to vist and add to your dream list</p>
@@ -43,7 +42,7 @@
 
 <div class="d-flex justify-content-center pb-4">
 	<form action="/index/new" method="GET">
-	<button type="submit" class="btn btn-lg btn-primary" >
+	<button type="submit" class="btn btn-lg btn-primary pt-2">
 		ADD NEW DESTINATION
 	</button>
 	</form>
@@ -61,7 +60,7 @@
 				          x=x.toUpperCase() %>
                     <h4 class="card-title"> <%=x%></h4>
                     <p class="card-text">Some example text.</p>
-                    <a href="/index/<%=itemlist[i]._id %>" class="btn btn-primary">INFO</a>
+                    <a href="/places_info/<%=itemlist[i]._id %>" class="btn btn-primary">INFO</a>
                   </div>
               </div>
 			 </div>

@@ -4,6 +4,7 @@ var Express=    require('express'),
 
 var app=Express();
 ejsLint("index.ejs","-d");
+app.use('/decfiles',Express.static('decfiles'));
 //this body-parser is included when POST request is used
 app.use(bodyparser.urlencoded({extended:true}));
 
@@ -49,6 +50,16 @@ app.get("/index/:id",(req, res)=>{
 	});
 });
 	
+//5th route ->
+app.get("/login",(req,res)=>{
+	res.render("login.ejs");
+});
+
+//6th route ->
+app.get("/places_info",(req,res)=>{
+	res.render("places_info.ejs");
+});
+
 //writing server listen route
 app.listen(1112,()=> {
 	console.log("server started");
