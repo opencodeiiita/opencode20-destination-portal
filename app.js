@@ -61,6 +61,6 @@ app.get("/places_info",(req,res)=>{
 });
 
 //writing server listen route
-app.listen(1112,()=> {
+app.listen(process.env.PORT,()=> {
 	console.log("server started");
 });
