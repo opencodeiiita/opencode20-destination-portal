@@ -32,6 +32,12 @@
   </div>
 </nav>
 
+<div class="spinner-wrapper">
+  <div class="spinner"></div>
+</div>
+
+
+
 <!-- my jumbotron -->
 <div class="jumbotron">
   <div class="container">
@@ -48,11 +54,11 @@
 	</form>
 </div>
 
-<!-- Heading -->	
+<!-- Heading -->
 	 <div class="container-fluid">
 		 <div class="row" style="display:flex;flex-wrap:wrap;">
 			   <% for(var i=0;i<itemlist.length;i++){ %>
-			<div class="col col-lg-4"> 
+			<div class="col col-lg-4">
 			  <div class="card mx-2 my-1" style="width:400px">
                   <img class="card-img-top" src="<%=itemlist[i].url%>" alt="Card image">
                   <div class="card-body">
@@ -66,7 +72,7 @@
 			 </div>
 				<%}%>
 		 </div>
-		 
+
      </div>
 
 
