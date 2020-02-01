@@ -1,7 +1,5 @@
  .border {
     display: inline-block;
-	border: 2px black;
-    outline-color: blue;
     width: 600px;
     height: 300px;
     margin: 150px;
