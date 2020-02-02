@@ -1,0 +1,11 @@
+ .border {
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+    margin: 150px;
+  }
+  .form-textbox {
+	height: 35px;
+	width: 500px;
+	font-size: 14px;
+}
