@@ -19,7 +19,8 @@
 6. Now you are ready to go to start contributing in the project
 7. **NOTE**  
  * css/ejs/js files are in views directory
- * Always sync your fork before working on a new     issue
+ * Always sync your fork before working on a new issue
+ * If u are facing problem with setting upstream for your repository refer to      https://help.github.com/en/enterprise/2.13/user/articles/fork-a-repo
 
 # Guidelines
 Please help us follow the best practice to make it easy for the reviewer as well
