@@ -1,7 +1,8 @@
 var Express=    require('express'),
 	bodyparser= require('body-parser'),
 	ejsLint=    require('ejs-lint'),
-	https=	    require('https');
+	https=	    require('https'),
+    API_KEY=    require('./views/key.js');
 
 var app=Express();
 ejsLint("index.ejs","-d");
@@ -39,17 +40,6 @@ app.post("/index/new",(req,res)=>{
 });
 
 //4th route -->show route
-app.get("/index/:id",(req, res)=>{
-	
-	dstplace.findById(req.params.id,(err,foundplace)=>{
-		if(err){
-		console.log(err);
-	     }
-	    else{
-		 res.render("places_info.ejs",{place_id:foundplace});	
-		}	
-	});
-});
 	
 //5th route ->
 app.get("/login",(req,res)=>{
@@ -62,8 +52,13 @@ app.get("/places_info",(req,res)=>{
 });
 
 //7th route ->
+app.get("/index/explore",(req,res)=>{
+	 res.render("explore.ejs");
+});
+
+//8th route
 app.get("/api/:place",(req,res)=>{
-	var key = process.env.API_KEY;
+	var key =API_KEY;
 	https.get('https://maps.googleapis.com/maps/api/place/textsearch/json?query='+req.params.place+'+point+of+interest&language=en&radius=2000&key='+key, (resp) => {
 		let data = '';
 
