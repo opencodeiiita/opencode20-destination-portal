@@ -1,18 +1,18 @@
 # opencode20-destination-portal
 
-**prerequisites**
-* basic html,CSS,Javascript
+## prerequisites
+* Basic Html, CSS, Javascript
 * Nodejs(basic)
 
 
 ## Installation steps
 
-1. forking and cloning repo on your linux/ubuntu (-- for windows prefer an IDE or online platform/IDE)
+1. Forking and cloning repo on your linux/ubuntu (-- for windows prefer an IDE or online platform/IDE)
 2. Installing dependencies
    * nodejs,npm
-3. Run command sudo apt install nodejs
-4. Run command sudo apt install npm
-5. deploying steps:
+3. Run command sudo apt install nodejs (only for linux/ubuntu OS) 
+4. Run command sudo apt install npm (only for linux/ubuntu OS) 
+5. **Deploying Steps:**
    * write  node app.js (this will start node server and host webpage locally ie localhost)
    * to view the webpage on browser:
    * go to mozilla and type URL http://localhost:1112
