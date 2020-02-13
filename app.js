@@ -10,14 +10,14 @@ app.use('/decfiles',Express.static('decfiles'));
 //this body-parser is included when POST request is used
 app.use(bodyparser.urlencoded({extended:true}));
 
-//my array/list of objects which stores the placesnode 
+//my array/list of objects which stores the placesnode
  var itemlist=[];
- 
+
 // 1st route-->index route
 app.get("/",(req,res)=>{
-	
-	res.render("index.ejs",{itemlist:itemlist});	
-	
+
+	res.render("index.ejs",{itemlist:itemlist});
+
 });
 
 //2nd route ->
@@ -28,19 +28,19 @@ app.get("/index/new",(req,res)=>{
 
 //3rd route
 app.post("/index/new",(req,res)=>{
-	
+
 	var newplace= {
 		name : req.body.dstname,
 		url  : req.body.imgurl
 	};
-	
+
 	itemlist.push(newplace);
 	res.redirect('/');
-	
+
 });
 
 //4th route -->show route
-	
+
 //5th route ->
 app.get("/login",(req,res)=>{
 	res.render("login.ejs");
@@ -68,7 +68,7 @@ app.get("/api/:place",(req,res)=>{
 
 		resp.on('end', () => {
 			places = JSON.parse(data).results;
-			places.sort(function(a, b) { 
+			places.sort(function(a, b) {
 				return b.user_ratings_total - a.user_ratings_total;
 			})
 			res.render("api.ejs",{places:places});
