@@ -1,28 +1,40 @@
 <%- include("partials/header.ejs")%>
-<!-- navbar -->
 
+<style>
+  body
+  {
+	background-image:url("https://images.unsplash.com/photo-1467377791767-c929b5dc9a23?ixlib=rb-  1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");
+	  background-repeat: no-repeat;
+	  background-position:centre;
+	  background-size:cover;
+   }
+</style>
 
-<!-- create a sample form group -->
+<center>
+
 <div class="container">
+<span class="border">
   <form action="/index/new" method="POST">
 	<div class="form-group">
-	  <label>Destination Name</label>
-	  <input class="form-control" type="text" placeholder="Name of Place" name="dstname">
-	  <small class="form-text text-muted">enter city/place/country you want to visit</small>
+	  <p class="font-weight-bold">Destination Name</p>
+	  <input class="form-control form-textbox" type="text" placeholder="Name of Place" name="dstname" required>
+	  <div class="invalid-feedback">Enter city/place/country you want to visit.</div>
 	</div>
-	  
+
 	<div class="form-group">
-	  <label>Image URL</label>
-	  <input class="form-control" type="text" placeholder="Enter Image URL" name="imgurl">
-	  <small class="form-text text-muted">enter the URL of image</small>
+	  <p class="font-weight-bold">Image URL</p>
+	  <input class="form-control form-textbox" type="text" placeholder="Enter Image URL" name="imgurl" required>
+	  <div class="invalid-feedback">Enter the URL of image.</div>
 	</div>
-	  
+
 	<button type="submit" class="btn btn-primary">
-		Add 
+		Add
 	</button>
-		
-</form>	
+
+</form>
+</span>
 </div>
+</center>
 
 
 <%- include("partials/footer.ejs")%>
